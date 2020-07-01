@@ -12,7 +12,7 @@ interface IFoodPlate {
 }
 
 interface IModalProps {
-  children: any;
+  children: unknown;
   isOpen: boolean;
   setIsOpen: () => void;
 }
